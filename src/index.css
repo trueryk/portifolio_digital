@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
-
 @custom-variant dark (&:where(.dark, .dark *));
 
-* {
-  padding: 0; margin: 0;
+:root{
+  --text-blue: #3D7593;
+  --bg-blue: #B5D3E3;
 }
 
 body {
