@@ -2,9 +2,13 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
-:root{
+:root {
   --text-blue: #3D7593;
   --bg-blue: #B5D3E3;
+}
+
+* {
+  scroll-behavior: smooth;
 }
 
 body {
