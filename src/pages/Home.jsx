@@ -1,9 +1,11 @@
-import fatecid from '../../public/fatecid.png'
+import fatecid from '../../public/fatecid.png';
+import CardsMaterias from '../components/CardsMaterias';
+
 
 export default function Home() {
     return (
         <>
-            <section className=" pt-16 font-bold h-screen" id="inicio">
+            <section className=" pt-16 font-bold h-screen bg-(--bg-beige)" id="inicio">
                 <div className="grid grid-row-2">
                     <div className="flex flex-row">
                         <h1 className="ms-16 text-start text-[5rem] text-(--text-blue)">
@@ -34,6 +36,28 @@ export default function Home() {
                     </div>
                     <div className="col-span-2 h-full flex justify-center">
                         <img className="w-[45vw]" src={fatecid} />
+                    </div>
+                </div>
+            </section>
+            <section className="h-screen flex bg-(--bg-beige)" id="materias">
+                <div className="grid-cols-2 grid">
+                    <div className="ms-15 mt-[10vh] flex flex-col align-center gap-4 col-span-1">
+                        <h1 className="text-[2rem]"><span className="overline">MATÉR</span>IAS</h1>
+                        <CardsMaterias
+                            bg="bg-cyan-700"
+                            color="white" 
+                            materia="GAP - Gestão Ágil de Projetos"
+                            link="/gap" />
+                        <CardsMaterias
+                            bg="bg-cyan-700"
+                            color="white"
+                            materia="IHC - Interação Humano Computador"
+                            link="/ihc" />
+                        <CardsMaterias
+                            bg="bg-cyan-700"
+                            color="white"
+                            materia="TP2 - Técnica de Programação 2"
+                            link="/tp" />
                     </div>
                 </div>
             </section>

@@ -6,10 +6,9 @@ export default function Menu() {
         <>
             <div className="fixed py-[3vh] align-center">
                 <ul className="flex flex-row ms-4 gap-4">
+                    <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#sobre-curso">Sobre o curso</a></li>
-                    <li> 2 </li>
-                    <li> 3 </li>
-                    <li> 4 </li>
+                    <li><a href="#materias">Matérias</a></li>
                 </ul>
             </div>
         </>
