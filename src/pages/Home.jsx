@@ -1,5 +1,6 @@
-import fatecid from '../../public/fatecid.png';
+import fatecid from '../Images/fatecid.png';
 import CardsMaterias from '../components/CardsMaterias';
+import antisora from '../Images/antisora.gif'
 
 
 export default function Home() {
@@ -58,6 +59,9 @@ export default function Home() {
                             color="white"
                             materia="TP2 - Técnica de Programação 2"
                             link="/tp" />
+                    </div>
+                    <div className='col-span-1 flex justify-center items-center'>
+                        <img src={antisora} className='w-50 h-50' />
                     </div>
                 </div>
             </section>
