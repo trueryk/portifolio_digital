@@ -18,7 +18,7 @@ export default function TecnicasProgramacao() {
     }
     return (
         <>
-            <div className="fixed right-0 h-screen w-[35vw] shadow-xl px-10 py-10">
+            <div className="fixed right-0 h-screen w-[35vw] shadow-xl px-10 py-10 overflow-y-auto">
                 {detalhes.length != 0 ? <button onClick={() => { setDetalhes([]) }} className="mt-2 ms-2 rounded-full w-[2rem] h-[2rem] border-1">X</button> : <></>}
                 <h1 className='ms-5 text-[1.4rem] mt-4'>Detalhes:</h1>
                 {detalhes.length == 0 ?
