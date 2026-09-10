@@ -6,13 +6,14 @@ import { useState } from 'react'
 export default function TecnicasProgramacao() {
     const [detalhes, setDetalhes] = useState([])
 
-    const showDetalhes = (data, tipo, titulo, resumo, reflexao,) => {
+    const showDetalhes = (data, tipo, titulo, resumo, reflexao, anexos) => {
         const detalhesInfo = {
             "data": data,
             "tipo": tipo,
             "titulo": titulo,
             "resumo": resumo,
-            "reflexao": reflexao
+            "reflexao": reflexao,
+            "anexos": anexos
         }
         setDetalhes(detalhesInfo)
     }
@@ -40,7 +41,7 @@ export default function TecnicasProgramacao() {
                         <div className="mt-2 ms-3 font-medium">
                             {detalhes.titulo}
                         </div>
-                         <div className="mt-7 text-[#1c4587] font-medium">
+                        <div className="mt-7 text-[#1c4587] font-medium">
                             Resumo:
                         </div>
                         <div className="mt-2 ps-3 border-s-2 border-[#1c4587]/60 text-[#1c4587]/80">
@@ -52,26 +53,39 @@ export default function TecnicasProgramacao() {
                         <div className="mt-2 ps-3 border-s-2 border-[#1c4587]/60 text-[#1c4587]/80">
                             {detalhes.reflexao}
                         </div>
-                    </div>}
-            </div>
+                        {<div className=" ms-5 mt-4">
+                            {detalhes.anexos !== undefined ? detalhes.anexos.map((a, i) =>
+                                <>
+                                    <a key={i} className="border-1 rounded  ms-2 text-center px-3 py-1 hover:bg-black hover:text-white" href={a.url} target='_blank'>{a.texto}</a>
+                                </>
+                            ) :
+                                <>
+                                </>}
+                        </div>}
+                    </div>
+                }
+            </div >
             <div className="w-[65vw]">
                 <div className="grid col-span-7 px-10 grid-cols-2 grid-rows-auto pt-10  gap-4 pb-10">
                     <div className="cols-start-2 flex justify-center">
                         <img src={antisora} className='w-50 h-50' />
                     </div>
                     {tpa.map((v, i) =>
-                        <div key={i} className={`h-[28rem] mt-10 rounded-lg row-span-2 shadow-xl row-start-${i + 1} row-end-${i + 3}`}>
-                            <div className=" w-full flex justify-center mt-7">
-                                <img src={panda} alt="" />
+                        <div key={i} className={`h-[28rem] mt-10 rounded-lg row-span-2 shadow-xl row-start-${i + 1} row-end-${i + 3} grid grid-row-10`}>
+                            <div className=" w-full flex justify-center row-span-5 rows-start-2">
+                                <img src={panda} className='rounded-xl' />
                             </div>
-                            <div className="">
-                                <p className='font-medium px-7 pt-2'> {v.Data}:</p>
-                                <p className='text-[.9rem] px-7 pt-2'>{v.Titulo}</p>
-                            </div>
-                            <div className="tag-button flex flex-row mt-4 ms-7">
-                                <div className={`border-1 border-[#507045] tag rounded px-3 ${v.Tipo == "Aula" ? "bg-[#cae1c2] text-[#507045]" : ""}`}>{v.Tipo}</div>
-                                <span className='mx-2'>|</span><button onClick={() => { showDetalhes(v.Data, v.Tipo, v.Titulo, v.Resumo, v.Reflexao) }} className="bg-[#b5d3e3] text-[#3d7593] rounded px-3 border-1">DETALHES +</button>
-                                {v.Anexo == null ? <></> : <><a className="border-1 rounded  ms-2 text-center px-3 hover:bg-black hover:text-white" href={v.Anexo}>Ver anexo</a></>}
+                            <div className="flex items-center row-span-3 ">
+                                <div className="">
+                                    <div className="">
+                                        <p className='font-medium px-7 pt-2'> {v.Data}:</p>
+                                        <p className='text-[.9rem] px-7 pt-2'>{v.Titulo}</p>
+                                    </div>
+                                    <div className="tag-button flex flex-row mt-4 ms-7">
+                                        <div className={`border-1 border-[#507045] tag rounded px-3 ${v.Tipo == "Aula" ? "bg-[#cae1c2] text-[#507045]" : ""}`}>{v.Tipo}</div>
+                                        <span className='mx-2'>|</span><button onClick={() => { showDetalhes(v.Data, v.Tipo, v.Titulo, v.Resumo, v.Reflexao, v.Anexo) }} className="bg-[#b5d3e3] text-[#3d7593] rounded px-3 border-1">DETALHES +</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>)}
                 </div>

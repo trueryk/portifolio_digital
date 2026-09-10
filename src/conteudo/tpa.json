@@ -5,7 +5,7 @@
         "Resumo": "Primeira aula de TP II (Técnica de Programação 2). As informações sobre a matéria e seus métodos de avaliação foram passados. Além disso, iniciamos com a criação de um modelo base para o portfólio profissional (utilizado para avaliação).",
         "Reflexao": "Essa matéria parece ser bem puxada, ainda mais com o fato de não termos uma base do TP I",
         "Tipo": "Aula",
-        "Anexo": null,
+        "Anexo": [],
         "Imagem": ".Images/panda.png"
     },
     {
@@ -14,7 +14,10 @@
         "Resumo": "Revisão dos conceitos básicos de Programação Orientada a Objetos e seus pilares, a aula contemplou uma revisita e apresentação deste modelo, além de uma atividade de fixação. ",
         "Reflexao": "Apesar de já ter conhecido os conceitos antes, por ter estudado, foi super importante reve-los.",
         "Tipo": "Aula",
-        "Anexo": null,
+        "Anexo": [{
+            "texto":"Atividade em aula",
+            "url":"/anexos/revisaopoo.pdf"
+        }],
         "Imagem": ".Images/panda.png"
     },
     {
@@ -23,7 +26,9 @@
         "Resumo": "Os grupos apresentaram, a pedido de uma atividade, 5 cenários ficticios de sistemas aplicados. Cada grupo precisou encontrar os conceitos e pilares da POO em cada um de seus cenários e criar um código prático (na linguagem que preferir) que ilustrasse o sistema.",
         "Reflexao": "! REFLEXÃO EM ESCRITA !",
         "Tipo": "Apresentação",
-        "Anexo": null,
+        "Anexo": [
+        
+        ],
         "Imagem": ".Images/panda.png"
     },
     {
@@ -32,7 +37,9 @@
         "Resumo": "Os grupos remanescentes da apresentação anterior apresentaram no inicio da aula, assim, com a conclusão das apresentações, iniciou-se o conteúdo de padrões de projeto.",
         "Reflexao": "! REFLEXÃO EM ESCRITA !",
         "Tipo": "Aula",
-        "Anexo": null,
+        "Anexo": [
+            
+        ],
         "Imagem": ".Images/panda.png"
     },
     {
@@ -41,7 +48,9 @@
         "Resumo": "A aula inteiramente foi focada na avaliação de Técnicas de Programação II, realizada através de um formulário no Teams.",
         "Reflexao": "! REFLEXÃO EM ESCRITA !",
         "Tipo": "Avaliação",
-        "Anexo": null,
+        "Anexo": [
+            
+        ],
         "Imagem": ".Images/panda.png"
     }
 ]
