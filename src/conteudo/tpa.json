@@ -14,20 +14,29 @@
         "Resumo": "Revisão dos conceitos básicos de Programação Orientada a Objetos e seus pilares, a aula contemplou uma revisita e apresentação deste modelo, além de uma atividade de fixação. ",
         "Reflexao": "Apesar de já ter conhecido os conceitos antes, por ter estudado, foi super importante reve-los.",
         "Tipo": "Aula",
-        "Anexo": [{
-            "texto":"Atividade em aula",
-            "url":"/anexos/revisaopoo.pdf"
-        }],
+        "Anexo": [
+            {
+                "texto": "Atividade em aula",
+                "url": "/anexos/revisaopoo.pdf"
+            }
+        ],
         "Imagem": ".Images/panda.png"
     },
     {
         "Data": "20/08/2026",
         "Titulo": "Aula III - Apresentação dos grupos do cenários.",
         "Resumo": "Os grupos apresentaram, a pedido de uma atividade, 5 cenários ficticios de sistemas aplicados. Cada grupo precisou encontrar os conceitos e pilares da POO em cada um de seus cenários e criar um código prático (na linguagem que preferir) que ilustrasse o sistema.",
-        "Reflexao": "! REFLEXÃO EM ESCRITA !",
+        "Reflexao": "Gostei das apresentações, pessoalmente gostei também de ter apresentado meus cenários, já que um deles, em especial, veio de uma ideia de um amigo",
         "Tipo": "Apresentação",
         "Anexo": [
-        
+            {
+                "texto": "Cenários",
+                "url": "/anexos/cenarios.pdf"
+            },
+            {
+                "texto": "Códigos",
+                "url": "https://github.com/trueryk/cenarios_aplicados"
+            }
         ],
         "Imagem": ".Images/panda.png"
     },
@@ -35,21 +44,31 @@
         "Data": "27/08/2026",
         "Titulo": "Aula IV -  Introdução aos padrões de projeto.",
         "Resumo": "Os grupos remanescentes da apresentação anterior apresentaram no inicio da aula, assim, com a conclusão das apresentações, iniciou-se o conteúdo de padrões de projeto.",
-        "Reflexao": "! REFLEXÃO EM ESCRITA !",
+        "Reflexao": "A aula foi tranquila, padrões de projeto parece útil, mas não algo que eu sinta que vá usar tanto.",
         "Tipo": "Aula",
-        "Anexo": [
-            
-        ],
+        "Anexo": [],
         "Imagem": ".Images/panda.png"
     },
     {
         "Data": "03/09/2026",
         "Titulo": "Aula V - Primeira avaliação.",
         "Resumo": "A aula inteiramente foi focada na avaliação de Técnicas de Programação II, realizada através de um formulário no Teams.",
-        "Reflexao": "! REFLEXÃO EM ESCRITA !",
+        "Reflexao": "Achei a prova fácil de fato, apesar de ter errado uma das questões por não ter confiado na minha primeira opção (que era de fato a correta).",
         "Tipo": "Avaliação",
+        "Anexo": [],
+        "Imagem": ".Images/panda.png"
+    },
+    {
+        "Data": "10/09/2026",
+        "Titulo": "Aula VI - Entrega de portifólio e do escopo do projeto.",
+        "Resumo": "A aula inteira foi focada em tirar dúvidas e relação a datas e portifólio. Foram feitas as entregas, via teams, dos portifólios, junto do escopo do projeto que será desenvolvido durante o semestre. A entrega do portifólio é apenas uma entrega inicial, e não contém o portifólio completamente finalizado.",
+        "Reflexao": "Aula tranquila, finalizei o protifólio e conversei com a professora para alinhar algumas coisas em relação a trabalhos e ao portifólio. Recebi dicas de design que provavelmente eu vou acatar (mais pra frente).",
+        "Tipo": "Aula",
         "Anexo": [
-            
+            {
+                "texto": "Escopo do projeto",
+                "url": "/anexos/escopoprojeto.pdf"
+            }
         ],
         "Imagem": ".Images/panda.png"
     }

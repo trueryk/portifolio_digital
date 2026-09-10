@@ -34,35 +34,37 @@ export default function TecnicasProgramacao() {
                         </div>
                     </div>
                     :
-                    <div className="mt-3 border-s-2 border-[#1c4587]/60 bg-[#b5d3e3]/50 px-4 py-4">
-                        <div className="text-[#1c4587] font-medium">
-                            {detalhes.data} - {detalhes.tipo}
+                    <>
+                        <div className="mt-3 border-s-2 border-[#1c4587]/60 bg-[#b5d3e3]/50 px-4 py-4">
+                            <div className="text-[#1c4587] font-medium">
+                                {detalhes.data} - {detalhes.tipo}
+                            </div>
+                            <div className="mt-2 ms-3 font-medium">
+                                {detalhes.titulo}
+                            </div>
+                            <div className="mt-7 text-[#1c4587] font-medium">
+                                Resumo:
+                            </div>
+                            <div className="mt-2 ps-3 border-s-2 border-[#1c4587]/60 text-[#1c4587]/80">
+                                {detalhes.resumo}
+                            </div>
+                            <div className="mt-7 text-[#1c4587] font-medium">
+                                Reflexão sobre a aula:
+                            </div>
+                            <div className="mt-2 ps-3 border-s-2 border-[#1c4587]/60 text-[#1c4587]/80">
+                                {detalhes.reflexao}
+                            </div>
                         </div>
-                        <div className="mt-2 ms-3 font-medium">
-                            {detalhes.titulo}
-                        </div>
-                        <div className="mt-7 text-[#1c4587] font-medium">
-                            Resumo:
-                        </div>
-                        <div className="mt-2 ps-3 border-s-2 border-[#1c4587]/60 text-[#1c4587]/80">
-                            {detalhes.resumo}
-                        </div>
-                        <div className="mt-7 text-[#1c4587] font-medium">
-                            Reflexão sobre a aula:
-                        </div>
-                        <div className="mt-2 ps-3 border-s-2 border-[#1c4587]/60 text-[#1c4587]/80">
-                            {detalhes.reflexao}
-                        </div>
-                        {<div className=" ms-5 mt-4">
+                        <ul className='py-3 flex flex-col'>
                             {detalhes.anexos !== undefined ? detalhes.anexos.map((a, i) =>
-                                <>
-                                    <a key={i} className="border-1 rounded  ms-2 text-center px-3 py-1 hover:bg-black hover:text-white" href={a.url} target='_blank'>{a.texto}</a>
-                                </>
+                                <li className='mb-2'>
+                                    <a key={i} className="border-1 rounded  ms-2 text-center px-3 py-1 hover:bg-black hover:text-white mt-4" href={a.url} target='_blank'>{a.texto}</a>
+                                </li>
                             ) :
                                 <>
                                 </>}
-                        </div>}
-                    </div>
+                        </ul>
+                    </>
                 }
             </div >
             <div className="w-[65vw]">
@@ -71,23 +73,25 @@ export default function TecnicasProgramacao() {
                         <img src={antisora} className='w-50 h-50' />
                     </div>
                     {tpa.map((v, i) =>
-                        <div key={i} className={`h-[28rem] mt-10 rounded-lg row-span-2 shadow-xl row-start-${i + 1} row-end-${i + 3} grid grid-row-10`}>
-                            <div className=" w-full flex justify-center row-span-5 rows-start-2">
-                                <img src={panda} className='rounded-xl' />
-                            </div>
-                            <div className="flex items-center row-span-3 ">
-                                <div className="">
+                        <>
+                            <div key={i} className={`h-[28rem] mt-10 rounded-lg row-span-2 shadow-xl row-start-${i + 1} row-end-${i + 3} grid grid-row-10`}>
+                                <div className=" w-full flex justify-center row-span-5 rows-start-2">
+                                    <img src={panda} className='rounded-xl' />
+                                </div>
+                                <div className="flex items-center row-span-3 ">
                                     <div className="">
-                                        <p className='font-medium px-7 pt-2'> {v.Data}:</p>
-                                        <p className='text-[.9rem] px-7 pt-2'>{v.Titulo}</p>
-                                    </div>
-                                    <div className="tag-button flex flex-row mt-4 ms-7">
-                                        <div className={`border-1 border-[#507045] tag rounded px-3 ${v.Tipo == "Aula" ? "bg-[#cae1c2] text-[#507045]" : ""}`}>{v.Tipo}</div>
-                                        <span className='mx-2'>|</span><button onClick={() => { showDetalhes(v.Data, v.Tipo, v.Titulo, v.Resumo, v.Reflexao, v.Anexo) }} className="bg-[#b5d3e3] text-[#3d7593] rounded px-3 border-1">DETALHES +</button>
+                                        <div className="">
+                                            <p className='font-medium px-7 pt-2'> {v.Data}:</p>
+                                            <p className='text-[.9rem] px-7 pt-2'>{v.Titulo}</p>
+                                        </div>
+                                        <div className="tag-button flex flex-row mt-4 ms-7">
+                                            <div className={`border-1 border-[#507045] tag rounded px-3 ${v.Tipo == "Aula" ? "bg-[#cae1c2] text-[#507045]" : ""}`}>{v.Tipo}</div>
+                                            <span className='mx-2'>|</span><button onClick={() => { showDetalhes(v.Data, v.Tipo, v.Titulo, v.Resumo, v.Reflexao, v.Anexo) }} className="bg-[#b5d3e3] text-[#3d7593] rounded px-3 border-1">DETALHES +</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>)}
+                        </>)}
                 </div>
             </div>
 
