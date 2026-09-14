@@ -1,0 +1,81 @@
+[
+    {
+        "Data": "03/08/2026",
+        "Titulo": "Aula I - Apresentação da matéria e métodos de avaliação.",
+        "Resumo": "Primeira aula de IHC (Interação Humano Computador). As informações sobre a matéria e seus métodos de avaliação foram passados.",
+        "Reflexao": "Não tem muito o que pensar sobre essa matéria ainda, por conta do seu horário",
+        "Tipo": "Aula",
+        "Anexo": [
+            {
+                "texto":"Jornada do usuário",
+                "url":"/anexos/jornadadousuario.pdf"
+            }
+        ],
+        "Imagem": ".Images/panda.png"
+    },
+    {
+        "Data": "10/08/2026",
+        "Titulo": "Aula II - Aula de introdução a IHC.",
+        "Resumo": "Apresentação e primeiro contato com a matéria. Conceitos de IHC e o que significa foram abordados durante aula. Além disso, foi feita uma atividade rápida sobre uma analise de um site e os aspectos de IHC nele.",
+        "Reflexao": "Aula tranquila, porém confusa por conta do horário da aula, que é o último, foi corrido e acabou sendo menos explorada ",
+        "Tipo": "Aula",
+        "Anexo": [],
+        "Imagem": ".Images/panda.png"
+    },
+    {
+        "Data": "17/08/2026",
+        "Titulo": "Aula III - Aula focada no PI.",
+        "Resumo": "Conversa sobre o PI, ajuste de planejamento e organização das equipes do PI",
+        "Reflexao": "Aula muito tranquila, nada demais, aproveitamos para definir algumas coisas sobre o PI",
+        "Tipo": "PI",
+        "Anexo": [],
+        "Imagem": ".Images/panda.png"
+    },
+    {
+        "Data": "24/08/2026",
+        "Titulo": "Aula IV -  Atividade utilizando IA.",
+        "Resumo": "Conversa sobre a utilização de IA em trabalhos acadêmicos. Houve também uma atividade prática para entender como fazer isso.",
+        "Reflexao": "Não fiz essa atividade, na verdade precisei ir embora mais cedo, apesar de ter participado da aula. E devido a motivos pessoais, preferi só não realizar a atividade.",
+        "Tipo": "Aula e Atividade",
+        "Anexo": [],
+        "Imagem": ".Images/panda.png"
+    },
+    {
+        "Data": "31/08/2026",
+        "Titulo": "Aula V - Mapa da jornada do usuário.",
+        "Resumo": "Aula sobre mapa da jornada de usuário, falando sobre o usuário em relação a um software. O que o usuário sente? O que ele acessa? Qual a experiência do usuário? Todos esses pontos são citados.",
+        "Reflexao": "Aula extremamente útil, já que o usuário é a parte mais importante do sistema, não só o software. Saber e mapear como é a experiência de um usuário se torna indispensavel.",
+        "Tipo": "Aula",
+        "Anexo": [],
+        "Imagem": ".Images/panda.png"
+    },
+    {
+        "Data": "07/09/2026",
+        "Titulo": "Feriado nacional - Independência do Brasil.",
+        "Resumo": "",
+        "Reflexao": "",
+        "Tipo": "Feriado",
+        "Anexo": [],
+        "Imagem": ".Images/panda.png"
+    },{
+        "Data": "14/09/2026",
+        "Titulo": ".",
+        "Resumo": "",
+        "Reflexao": "",
+        "Tipo": "Aula",
+        "Anexo": [],
+        "Imagem": ".Images/panda.png"
+    },
+    {
+        "Data": "18/09/2026",
+        "Titulo": "Entrega da avaliação (via portfólio) da persona do PI e seu mapa de jornada de usuário.",
+        "Resumo": "Não houve aula presencial, na verdade apenas a entrega via teams, tanto do portfólio quanto da atividade",
+        "Reflexao": "",
+        "Tipo": "Atividade",
+        "Anexo": [{
+            "texto":"",
+            "url":""
+        }],
+        "Imagem": ".Images/panda.png"
+    }
+]

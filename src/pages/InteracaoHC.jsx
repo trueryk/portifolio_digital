@@ -1,9 +1,9 @@
 import panda from '../Images/panda.png'
-import tpa from '../conteudo/tpa.json'
+import ihc from '../conteudo/ihc.json'
 import antisora from '../Images/antisora.gif'
 import { useState } from 'react'
 
-export default function TecnicasProgramacao() {
+export default function InteracaoHC() {
     const [detalhes, setDetalhes] = useState([])
 
     const showDetalhes = (data, tipo, titulo, resumo, reflexao, anexos) => {
@@ -76,7 +76,7 @@ export default function TecnicasProgramacao() {
                     <div className="cols-start-2 flex justify-center">
                         <img src={antisora} className='w-50 h-50' />
                     </div>
-                    {tpa.map((v, i) =>
+                    {ihc.map((v, i) =>
                         <>
                             <div key={i} className={`h-[28rem] mt-10 rounded-lg row-span-2 shadow-xl row-start-${i + 1} row-end-${i + 3} grid grid-row-10`}>
                                 <div className=" w-full flex justify-center row-span-5 rows-start-2">

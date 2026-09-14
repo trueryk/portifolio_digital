@@ -1,0 +1,76 @@
+[
+    {
+        "Data": "03/08/2026",
+        "Titulo": "Aula I - Apresentação da matéria e métodos de avaliação.",
+        "Resumo": "Primeira aula de GAP (GAP). As informações sobre a matéria e seus métodos de avaliação foram passados.",
+        "Reflexao": "Nada a pensar sobre a aula. Foram as primeiras impressões da professora e acredito que vai ser bem puxado, mas gostei da professora, simpática e tranquila.",
+        "Tipo": "Aula",
+        "Anexo": [],
+        "Imagem": ".Images/panda.png"
+    },
+    {
+        "Data": "10/08/2026",
+        "Titulo": "Aula II - Aula de introdução a GAP.",
+        "Resumo": "Apresentação e primeiro contato com a matéria. Conceitos de GAO e o que significa foram abordados durante aula.",
+        "Reflexao": "Aula um pouco mais massante, mas nada muito inusitado ou não usual.",
+        "Tipo": "Aula",
+        "Anexo": [],
+        "Imagem": ".Images/panda.png"
+    },
+    {
+        "Data": "17/08/2026",
+        "Titulo": "Aula III - Apresentação do manual do PI.",
+        "Resumo": "Junto da professora, dissecamos o manual do PI, com suas exigências, para nos organizarmos melhor e entendermos o que se era pedido.",
+        "Reflexao": "",
+        "Tipo": "Aula",
+        "Anexo": [],
+        "Imagem": ".Images/panda.png"
+    },
+    {
+        "Data": "24/08/2026",
+        "Titulo": "Aula IV - Aula focada no PI.",
+        "Resumo": "Conversa sobre o PI, ajuste de planejamento e organização das equipes do PI",
+        "Reflexao": "Aula muito tranquila, nada demais, aproveitamos para definir algumas coisas sobre o PI",
+        "Tipo": "PI",
+        "Anexo": [],
+        "Imagem": ".Images/panda.png"
+    },
+    {
+        "Data": "31/08/2026",
+        "Titulo": "Aula V - Fundamentos da Gestão Ágil.",
+        "Resumo": "A aula inteiramente foi nas fundamentações da Gestão Ágil. Houve também uma atividade ao final da aula.",
+        "Reflexao": "Aula mais tranquila e calma.",
+        "Tipo": "Aula",
+        "Anexo": [{
+            "texto":"Lista de exercícios",
+            "url":"/anexos/listaexerciciosgap.pdf"
+        }],
+        "Imagem": ".Images/panda.png"
+    },
+    {
+        "Data": "07/09/2026",
+        "Titulo": "Feriado nacional - Independência do Brasil.",
+        "Resumo": "",
+        "Reflexao": "",
+        "Tipo": "Feriado",
+        "Anexo": [],
+        "Imagem": ".Images/panda.png"
+    },
+    {
+        "Data": "14/09/2026",
+        "Titulo": "Aula VII - Apresentação do seminário com mapa conceitual.",
+        "Resumo": "A aula inteira foi focada nas apresentações do seminário de Gestõa Ágil de Projetos sobre o scrum aplicado a projetos reais.",
+        "Reflexao": "",
+        "Tipo": "Apresentação",
+        "Anexo": [
+            {
+                "texto": "Mapa conceitual",
+                "url": "https://www.canva.com/design/DAHVFniCDXc/R2ShTkwK0k-y94OxlNUIKQ/edit"
+            },{
+                "texto":"Slides do seminário",
+                "url":"/anexos/seminarioscrum.pdf"
+            }
+        ],
+        "Imagem": ".Images/panda.png"
+    }
+]

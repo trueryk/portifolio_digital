@@ -4,9 +4,11 @@ import './App.css'
 import Home from './pages/Home'
 import GestaoAgil from './pages/GestaoAgil'
 import TecnicasProgramacao from './pages/TecnicasProgramacao'
+import InteracaoHC from './pages/InteracaoHC'
 // componentes
 import Menu from './components/Menu'
 import MenuMateria from './components/MenuMateria'
+
 
 
 
@@ -27,6 +29,13 @@ export default function App() {
             <>
               <MenuMateria/>
               <GestaoAgil />
+            </>
+          } />
+
+          <Route path='/ihc' element={
+            <>
+              <MenuMateria/>
+              <InteracaoHC />
             </>
           } />
 
