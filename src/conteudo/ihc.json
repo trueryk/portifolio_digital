@@ -59,9 +59,9 @@
         "Imagem": ".Images/panda.png"
     },{
         "Data": "14/09/2026",
-        "Titulo": ".",
-        "Resumo": "",
-        "Reflexao": "",
+        "Titulo": "Finalizando atividades e portfolio.",
+        "Resumo": "Aula apenas para acertar alguns pontos, finalizar algumas atividades e finalizar alguns pontos do portfólio",
+        "Reflexao": "Meu grupo ja havia feito as atividades e o portfólio, então aceleramos para fazer a avaliação de sexta. fei",
         "Tipo": "Aula",
         "Anexo": [],
         "Imagem": ".Images/panda.png"
@@ -71,7 +71,7 @@
         "Titulo": "Entrega da avaliação (via portfólio) da persona do PI e seu mapa de jornada de usuário.",
         "Resumo": "Não houve aula presencial, na verdade apenas a entrega via teams, tanto do portfólio quanto da atividade",
         "Reflexao": "",
-        "Tipo": "Atividade",
+        "Tipo": "Avaliação I",
         "Anexo": [{
             "texto":"",
             "url":""
