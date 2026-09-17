@@ -89,7 +89,7 @@ export default function GestaoAgil() {
                                             <p className='text-[.9rem] px-7 pt-2'>{v.Titulo}</p>
                                         </div>
                                         <div className="tag-button flex flex-row mt-4 ms-7">
-                                            <div className={`border-1 border-[#507045] tag rounded px-3 ${v.Tipo == "Aula" ? "bg-[#cae1c2] text-[#507045]" : ""}`}>{v.Tipo}</div>
+                                            <div className={`border-1 border-[#507045] tag rounded px-3 ${v.Tipo == "Aula" ? "bg-[#cae1c2] text-[#507045]" : v.Tipo == "Avaliação I" ? "bg-[#cae1c2] text-[#507045]" : ""}`}>{v.Tipo}</div>
                                             <span className='mx-2'>|</span><button onClick={() => { showDetalhes(v.Data, v.Tipo, v.Titulo, v.Resumo, v.Reflexao, v.Anexo) }} className="bg-[#b5d3e3] text-[#3d7593] rounded px-3 border-1">DETALHES +</button>
                                         </div>
                                     </div>
