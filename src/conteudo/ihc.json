@@ -73,8 +73,8 @@
         "Reflexao": "",
         "Tipo": "Avaliação I",
         "Anexo": [{
-            "texto":"",
-            "url":""
+            "texto":"Jornada Persona",
+            "url":"/anexos/personajornada.pdf"
         }],
         "Imagem": ".Images/panda.png"
     }
